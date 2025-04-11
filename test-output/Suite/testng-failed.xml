@@ -12,17 +12,10 @@
       <class name="testCases.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.LoginTest -->
-      <class name="testCases.JavascriptAlertTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="alertTest"/>
-        </methods>
-      </class> <!-- testCases.JavascriptAlertTest -->
     </classes>
   </test> <!-- chrometest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

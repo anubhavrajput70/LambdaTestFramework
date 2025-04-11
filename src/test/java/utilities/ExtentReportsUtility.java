@@ -28,14 +28,11 @@ public class ExtentReportsUtility implements ITestListener {
 
 	public void onStart(ITestContext testContext) {
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-
 		repName = "Test-Report-" + timestamp + ".html";
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);
-
 		sparkReporter.config().setDocumentTitle("Automation Report");
 		sparkReporter.config().setReportName("Funtional Testing");
 		sparkReporter.config().setTheme(Theme.DARK);
-
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
 		extent.setSystemInfo("Application", "HeroKuapp");
@@ -54,13 +51,6 @@ public class ExtentReportsUtility implements ITestListener {
 		test = extent.createTest(result.getTestClass().getName());
 		test.log(Status.FAIL, result.getName() + "got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
-
-		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
-		} catch (Exception e1) {
-			e1.getMessage();
-		}
 	}
 
 	public void onTestSkipped(ITestResult result) {
@@ -78,7 +68,6 @@ public class ExtentReportsUtility implements ITestListener {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-
 
 	}
 }
