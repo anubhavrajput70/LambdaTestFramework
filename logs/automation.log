@@ -1,0 +1,17 @@
+01:55:27.453 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:55:27.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:55:27.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+01:55:27.472 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:55:27.496 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+01:55:42.447 [main] INFO  testCases.LoginTest - ******* Finish loginTest *******
+01:55:42.455 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+01:55:44.534 [main] INFO  testCases.LoginTest - ******* Finish loginTest *******
+01:55:44.538 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+01:55:55.319 [main] INFO  testCases.LoginTest - ******* Finish loginTest *******
+01:55:55.323 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+01:56:06.114 [main] INFO  testCases.LoginTest - ******* Finish loginTest *******
+01:56:13.022 [main] INFO  testCases.JavascriptAlertTest - ******* starting alertTest *******
+01:56:14.427 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSAlert *******
+01:56:15.140 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSConfirm *******
+01:56:15.832 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSPrompt *******
+01:56:16.690 [main] INFO  testCases.JavascriptAlertTest - ******* finish alertTest *******
