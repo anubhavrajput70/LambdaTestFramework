@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.impl.CTSymImpl;
 
 public class AlertPage extends BasePage{
 
@@ -22,6 +23,7 @@ public class AlertPage extends BasePage{
 	{
 		jsAlert.click();
 		Alert alert = driver.switchTo().alert();
+		System.out.println("Alert text: "+alert.getText());
 		alert.accept();
 	}
 	
@@ -29,17 +31,19 @@ public class AlertPage extends BasePage{
 	{
 
 		jsConfirm.click();
-		Alert alert = driver.switchTo().alert();
-		alert.dismiss();
+		Alert confirm = driver.switchTo().alert();
+		System.out.println("Confirm text: "+confirm.getText());;
+		confirm.dismiss();
 		
 	}
 	
 	public void handleJsPrompt()
 	{
 		jsPrompt.click();
-		Alert alert = driver.switchTo().alert();
-		alert.sendKeys("selenium");
-		alert.accept();
+		Alert prompt = driver.switchTo().alert();
+		System.out.println("Prompt text: " + prompt.getText());
+        prompt.sendKeys("Selenium");
+        prompt.accept();
 	}
 
 }

@@ -12,7 +12,7 @@
       <class name="testCases.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="loginTest" invocation-numbers="1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.LoginTest -->

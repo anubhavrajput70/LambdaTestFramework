@@ -1,1 +1,20 @@
-02:41:51.534 [main] INFO  testCases.JavascriptAlertTest - ******* finish alertTest *******
+16:29:55.419 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:29:55.430 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:29:55.431 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:29:55.455 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:29:55.457 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:29:55.458 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:29:55.479 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:29:55.480 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:29:55.480 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:29:55.498 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:29:55.499 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:29:55.499 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:29:55.525 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+16:30:19.981 [main] INFO  testCases.LoginTest - ******* Finish loginTest *******
+16:30:20.013 [main] INFO  testCases.LoginTest - ******* starting loginTest *******
+16:30:42.088 [main] INFO  testCases.JavascriptAlertTest - ******* starting alertTest *******
+16:30:43.125 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSAlert *******
+16:30:46.128 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSConfirm *******
+16:30:46.409 [main] INFO  testCases.JavascriptAlertTest - ******* handling JSPrompt *******
+16:30:46.770 [main] INFO  testCases.JavascriptAlertTest - ******* finish alertTest *******
