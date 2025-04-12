@@ -1,5 +1,8 @@
 # LambdaTestFramework
 
+LambdaTest TEST ID for jsAlert => V4GDH-BFYRT-F6UA1-9IAES
+LambdaTest TEST ID for login => RKUJP-JE197-TQNIV-ZFFNR
+
 ## 🧪 Framework Explanation
 This project is a Hybrid Test Automation Framework built using **Selenium WebDriver**, **Java**, and **TestNG**. It is designed to be **flexible**, **maintainable**, and **scalable** for various testing needs.
 
